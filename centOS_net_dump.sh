@@ -2,7 +2,7 @@
 
 DATE=$(date +"%m-%d-%Y")
 
-netfile="{USER}_${DATE}_centos_network_report.txt"
+netfile="${USER}_${DATE}_centos_network_report.txt"
 
 #obtains general information of the machine you are working on
 echo "----------Host_Name----------" > $netfile
