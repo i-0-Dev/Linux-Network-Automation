@@ -4,7 +4,7 @@
 DATE=$(date +"%m-%d-%Y")
 
 # Combines my username the date variable and
-netfile="{USER}_${DATE}_ubuntu_network_report.txt"
+netfile="${USER}_${DATE}_ubuntu_network_report.txt"
 
 echo "----------HOST NAME AND SYSTEM INFO----------" > $netfile
 
