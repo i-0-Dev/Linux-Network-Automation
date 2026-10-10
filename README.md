@@ -31,3 +31,13 @@ chmod +x centos_net_dump.sh
 After executing, the script will output a text file that reports the requested data 
 *  `[USER]_[MM-DD-YYYY]_ubuntu_network_report.txt`
 *  `[USER]_[MM-DD-YYYY]_centos_network_report.txt`
+
+## Execution check
+
+Here are some reports generated with the scripts that ive created with sensitive data redacted
+
+### Ubuntu Verify
+![Ubuntu report Screenshot](ubuntu_output.png)
+
+### Centos Verify
+![CentOS Report Screenshot](centos_output.png)
